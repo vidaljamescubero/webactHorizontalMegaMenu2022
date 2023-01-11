@@ -1,10 +1,329 @@
 let navArray = [
     {
-        "title": "Home",
+        "title": "Empty Page",
         "alias": "home",
         "path": "/site/6c6fe950/?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
         "visible": true,
-        "uuid": "96a9328e56834058bc66be6b25033454",
+        "uuid": "6503281a753046049ce47bc31fef88c5",
+        "subNav": []
+    },
+    {
+        "title": "Residents",
+        "alias": "residents",
+        "path": "/site/6c6fe950/residents?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "94c4ad9d11794655a4a5a819ad23c42e",
+        "subNav": []
+    },
+    {
+        "title": "Visitors",
+        "alias": "visitors",
+        "path": "/site/6c6fe950/visitors?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "a91d0cf3cc604915b33dd047f4c89d7b",
+        "subNav": []
+    },
+    {
+        "title": "Businesses",
+        "alias": "businesses",
+        "path": "/site/6c6fe950/businesses?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "c5b95ffde66c4bb18d7b290eb12398ab",
+        "subNav": []
+    },
+    {
+        "title": "Government",
+        "alias": "government",
+        "path": "/site/6c6fe950/government?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "a873b96ea04d4c708853b929ec66c286",
+        "subNav": []
+    },
+    {
+        "title": "Households",
+        "alias": "households",
+        "path": "/site/6c6fe950/households?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "38529dce29894f069b495528cf5778d7",
+        "subNav": [
+            {
+                "title": "Garbage and Recycling Collection",
+                "alias": "garbage-and-recycling-collection",
+                "path": "/site/6c6fe950/garbage-and-recycling-collection?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "76f17a65052b4f4293d8e9d64a2af4d2",
+                "subNav": [
+                    {
+                        "title": "Refuse Fee",
+                        "alias": "refuse-fee",
+                        "path": "/site/6c6fe950/refuse-fee?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "bb3ba363a33a47b681cb832a471691c9",
+                        "subNav": []
+                    },
+                    {
+                        "title": "FAQs",
+                        "alias": "faqs",
+                        "path": "/site/6c6fe950/faqs?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "3b42199525064162a70dfa4aa01cf2a8",
+                        "subNav": []
+                    }
+                ]
+            },
+            {
+                "title": "New Resident",
+                "alias": "new-resident",
+                "path": "/site/6c6fe950/new-resident?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "2ea683177ae24d75bc68892fdb66caf9",
+                "subNav": [
+                    {
+                        "title": "Moving to Niagara Falls",
+                        "alias": "moving-to-niagara-falls",
+                        "path": "/site/6c6fe950/moving-to-niagara-falls?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "251079761b264508973ec7d5352e655f",
+                        "subNav": []
+                    }
+                ]
+            },
+            {
+                "title": "Senior Services",
+                "alias": "senior-services",
+                "path": "/site/6c6fe950/senior-services?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "587ee43656ed4a2c8f0a7531a02d5945",
+                "subNav": [
+                    {
+                        "title": "Caregivers Program",
+                        "alias": "caregivers-program",
+                        "path": "/site/6c6fe950/caregivers-program?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "ee990f6d88044cf0a851596cc70ba0e0",
+                        "subNav": []
+                    },
+                    {
+                        "title": "Eat Well Stay Well Dining Program",
+                        "alias": "eat-well-stay-well-dining-program",
+                        "path": "/site/6c6fe950/eat-well-stay-well-dining-program?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "6429ecba66384bf9a66f12e82a556593",
+                        "subNav": []
+                    },
+                    {
+                        "title": "EISEP Extended in Home Services for the Elderly Program",
+                        "alias": "eisep-extended-in-home-services-for-the-elderly-program",
+                        "path": "/site/6c6fe950/eisep-extended-in-home-services-for-the-elderly-program?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "e79db5c31905426d92cbb03cfa91357c",
+                        "subNav": []
+                    },
+                    {
+                        "title": "HEAP Home Energy Assistance Program",
+                        "alias": "heap-home-energy-assistance-program",
+                        "path": "/site/6c6fe950/heap-home-energy-assistance-program?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "abecac0a970a45c9ad130a20a030290e",
+                        "subNav": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Health",
+        "alias": "health",
+        "path": "/site/6c6fe950/health?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "faefa4950a364076a8c6acb10cf8f22c",
+        "subNav": [
+            {
+                "title": "Coronavirus Updates",
+                "alias": "coronavirus-updates",
+                "path": "/site/6c6fe950/coronavirus-updates?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "6986bb79c105411893f893df028d90ac",
+                "subNav": []
+            },
+            {
+                "title": "Healthcare/ Well-being",
+                "alias": "healthcare/-well-being",
+                "path": "/site/6c6fe950/healthcare/-well-being?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "9d98cb2fc6ce4e4e9fc9154b7f20a6a1",
+                "subNav": []
+            },
+            {
+                "title": "Emergency Dispatch",
+                "alias": "emergency-dispatch",
+                "path": "/site/6c6fe950/emergency-dispatch?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "cb55e6fb9fe84d78a8b88d1d5ef71552",
+                "subNav": []
+            }
+        ]
+    },
+    {
+        "title": "Water Board",
+        "alias": "water-board",
+        "path": "/site/6c6fe950/water-board?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "b3aad990b6fe4ff680d707cad5a7039d",
+        "subNav": [
+            {
+                "title": "Sewer Maintenance",
+                "alias": "sewer-maintenance",
+                "path": "/site/6c6fe950/sewer-maintenance?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "8378b330bee448b693f043c4f2ecf35e",
+                "subNav": []
+            },
+            {
+                "title": "Water Information",
+                "alias": "water-information",
+                "path": "/site/6c6fe950/water-information?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "e235f7a5fbb3459fbbb59a865a7a6f99",
+                "subNav": []
+            },
+            {
+                "title": "Pay your Water Bill",
+                "alias": "pay-your-water-bill",
+                "path": "/site/6c6fe950/pay-your-water-bill?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "ac572ae55f2647f5824874c31d4d1162",
+                "subNav": []
+            }
+        ]
+    },
+    {
+        "title": "History of Niagara Falls",
+        "alias": "history-of-niagara-falls",
+        "path": "/site/6c6fe950/history-of-niagara-falls?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "b874adfd5f654591ad1c680f0b21a63a",
+        "subNav": []
+    },
+    {
+        "title": "Things To Do",
+        "alias": "things-to-do",
+        "path": "/site/6c6fe950/things-to-do?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "b028b46d141b4753beeeb42973492bf7",
+        "subNav": []
+    },
+    {
+        "title": "Stay",
+        "alias": "stay",
+        "path": "/site/6c6fe950/stay?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "e34f88bff05041d2a13acbd166937a5b",
+        "subNav": []
+    },
+    {
+        "title": "Shop",
+        "alias": "shop",
+        "path": "/site/6c6fe950/shop?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "39b59d3fa3b5467ea2ac536a5bcd3160",
+        "subNav": []
+    },
+    {
+        "title": "Dine",
+        "alias": "dine",
+        "path": "/site/6c6fe950/dine?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "12dde23e03c144af9696a04d26c0bd4a",
+        "subNav": []
+    },
+    {
+        "title": "Attractions",
+        "alias": "attractions",
+        "path": "/site/6c6fe950/attractions?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "f5e17f15f71143e5b69467d9961ae0b4",
+        "subNav": []
+    },
+    {
+        "title": "Questions About Your Visit",
+        "alias": "questions-about-your-visit",
+        "path": "/site/6c6fe950/questions-about-your-visit?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "c5a723c603a04e99b35d8c3a983d09bb",
+        "subNav": []
+    },
+    {
+        "title": "Starting Out",
+        "alias": "starting-out",
+        "path": "/site/6c6fe950/starting-out?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "edcb86fd65f74231bd0d21e08c40aed7",
+        "subNav": []
+    },
+    {
+        "title": "Doing Business",
+        "alias": "doing-business",
+        "path": "/site/6c6fe950/doing-business?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "4f24e2dd8ae7491caf3aa78c77816e9c",
+        "subNav": [
+            {
+                "title": "Small Business Owners",
+                "alias": "small-business-owners",
+                "path": "/site/6c6fe950/small-business-owners?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "4f8c07f7feb74345bf55ae566c0c1109",
+                "subNav": []
+            },
+            {
+                "title": "Business Development Resources",
+                "alias": "business-development-resources",
+                "path": "/site/6c6fe950/business-development-resources?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "c52c990905e2433e945766ea5ecfa4e2",
+                "subNav": []
+            },
+            {
+                "title": "Street Vendors",
+                "alias": "street-vendors",
+                "path": "/site/6c6fe950/street-vendors?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                "visible": true,
+                "uuid": "dea4220936764690909e0d253daa10dc",
+                "subNav": []
+            }
+        ]
+    },
+    {
+        "title": "Development",
+        "alias": "development",
+        "path": "/site/6c6fe950/development?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "139e3a1f145b4fba94ab9383edcdcca0",
+        "subNav": []
+    },
+    {
+        "title": "Inspection Documentation",
+        "alias": "inspection-documentation",
+        "path": "/site/6c6fe950/inspection-documentation?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "d72c3bbd17444d2f8a844aaba3e4741d",
+        "subNav": []
+    },
+    {
+        "title": "Purchasing Department",
+        "alias": "purchasing-department",
+        "path": "/site/6c6fe950/purchasing-department?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "391c5bc263cc47eaaf1b167451bf6d39",
+        "subNav": []
+    },
+    {
+        "title": "Bids",
+        "alias": "bids",
+        "path": "/site/6c6fe950/bids?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+        "visible": true,
+        "uuid": "e3e74de4f290418ab554de1cf1fd179e",
         "subNav": []
     },
     {
@@ -119,16 +438,16 @@ let navArray = [
                         "visible": true,
                         "uuid": "0875415386a8459682e9074eb7c8a4ef",
                         "subNav": []
+                    },
+                    {
+                        "title": "Zoning Board",
+                        "alias": "zoning-board",
+                        "path": "/site/6c6fe950/zoning-board?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "5d0138f39bd34563a087c778eaede8ec",
+                        "subNav": []
                     }
                 ]
-            },
-            {
-                "title": "Zoning Board",
-                "alias": "zoning-board",
-                "path": "/site/6c6fe950/zoning-board?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
-                "visible": true,
-                "uuid": "5d0138f39bd34563a087c778eaede8ec",
-                "subNav": []
             },
             {
                 "title": "Historic Preservation Board",
@@ -375,11 +694,11 @@ let navArray = [
                 "uuid": "45ab5402cd7647ac81ea6cc33a2cf593",
                 "subNav": [
                     {
-                        "title": "Municipal Civil Service Commision",
-                        "alias": "municipal-civil-service-commision",
-                        "path": "/site/6c6fe950/municipal-civil-service-commision?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "title": "Municipal Civil Service Commission",
+                        "alias": "municipal-civil-service-commission",
+                        "path": "/site/6c6fe950/municipal-civil-service-commission?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
                         "visible": true,
-                        "uuid": "b69db03d19e94f269c277a852942ce8b",
+                        "uuid": "1fd9a9dabf3f4d22a8b0e77a956e53ba",
                         "subNav": []
                     },
                     {
@@ -387,7 +706,7 @@ let navArray = [
                         "alias": "newpage",
                         "path": "/site/6c6fe950/newpage?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
                         "visible": true,
-                        "uuid": "3c5fc86e702c46128c3a19fd0c3d28eb",
+                        "uuid": "77300d0c13ad469599eacef5e32c1c2b",
                         "subNav": []
                     },
                     {
@@ -545,27 +864,200 @@ let navArray = [
                 "path": "/site/6c6fe950/purchasing?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
                 "visible": true,
                 "uuid": "e6642d375fc94473896b3e2d87e5bfeb",
-                "subNav": []
+                "subNav": [
+                    {
+                        "title": "test1",
+                        "alias": "test1",
+                        "path": "/site/6c6fe950/test1?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "4531e441119f4655b0b2c982d5b57181",
+                        "subNav": []
+                    },
+                    {
+                        "title": "test2",
+                        "alias": "test2",
+                        "path": "/site/6c6fe950/test2?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "28275c81aa1d421cb4d48cf3fc291a01",
+                        "subNav": []
+                    },
+                    {
+                        "title": "test3",
+                        "alias": "test3",
+                        "path": "/site/6c6fe950/test3?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true",
+                        "visible": true,
+                        "uuid": "8c9d4651882f4bd2b47bfe723231adcd",
+                        "subNav": []
+                    }
+                ]
             }
         ]
     }
 ]
 
+let mainCategories = [
+    {
+        "mainCategoriesLabel": "Residents",
+        "MainCategoriesMenuColor": "#034",
+        "mainCategoriesPath": "/residents"
+    },
+    {
+        "mainCategoriesLabel": "Visitors",
+        "MainCategoriesMenuColor": "#628400",
+        "mainCategoriesPath": "/visitors"
+    },
+    {
+        "mainCategoriesLabel": "Businesses",
+        "MainCategoriesMenuColor": "#840062",
+        "mainCategoriesPath": "/businesses"
+    },
+    {
+        "mainCategoriesLabel": "Government",
+        "MainCategoriesMenuColor": "#916e0f",
+        "mainCategoriesPath": "/government"
+    }
+]
+
+let mainNavs = [
+    {
+        "MainNavsParentPath": "/residents",
+        "mainNavslabel": "Households",
+        "MainNavsParentLabel": "Residents",
+        "mainNavsPath": "/households"
+    },
+    {
+        "mainNavslabel": "Health",
+        "mainNavsPath": "/health",
+        "MainNavsParentPath": "/residents",
+        "MainNavsParentLabel": "Residents"
+    },
+    {
+        "mainNavslabel": "Water Board",
+        "mainNavsPath": "/water-board",
+        "MainNavsParentLabel": "Residents",
+        "MainNavsParentPath": "/residents"
+    },
+    {
+        "mainNavslabel": "Things To Do",
+        "mainNavsPath": "/things-to-do",
+        "MainNavsParentLabel": "Visitors",
+        "MainNavsParentPath": "/visitors"
+    },
+    {
+        "mainNavslabel": "Stay",
+        "mainNavsPath": "/stay",
+        "MainNavsParentLabel": "Visitors",
+        "MainNavsParentPath": "/visitors"
+    },
+    {
+        "mainNavslabel": "Shop",
+        "mainNavsPath": "/shop",
+        "MainNavsParentLabel": "Visitors",
+        "MainNavsParentPath": "/visitors"
+    },
+    {
+        "mainNavslabel": "Dine",
+        "mainNavsPath": "/dine",
+        "MainNavsParentLabel": "Visitors",
+        "MainNavsParentPath": "/visitors"
+    },
+    {
+        "mainNavslabel": "Questions About Your Visit",
+        "mainNavsPath": "/questions-about-your-visit",
+        "MainNavsParentLabel": "Visitors",
+        "MainNavsParentPath": "/visitors"
+    },
+    {
+        "mainNavslabel": "Starting Out",
+        "mainNavsPath": "/starting-out",
+        "MainNavsParentLabel": "Businesses",
+        "MainNavsParentPath": "/businesses"
+    },
+    {
+        "mainNavslabel": "Doing Business",
+        "mainNavsPath": "/doing-business",
+        "MainNavsParentLabel": "Businesses",
+        "MainNavsParentPath": "/businesses"
+    },
+    {
+        "mainNavslabel": "Development",
+        "mainNavsPath": "/development",
+        "MainNavsParentLabel": "Businesses",
+        "MainNavsParentPath": "/businesses"
+    },
+    {
+        "mainNavslabel": "Purchasing Department",
+        "mainNavsPath": "/purchasing-department",
+        "MainNavsParentLabel": "Businesses",
+        "MainNavsParentPath": "/businesses"
+    },
+    {
+        "mainNavslabel": "Inspection Documentation",
+        "mainNavsPath": "/inspection-documentation",
+        "MainNavsParentLabel": "Businesses",
+        "MainNavsParentPath": "/businesses"
+    },
+    {
+        "mainNavslabel": "Bids",
+        "mainNavsPath": "/bids",
+        "MainNavsParentLabel": "Businesses",
+        "MainNavsParentPath": "/businesses"
+    },
+    {
+        "mainNavslabel": "Executive Office",
+        "mainNavsPath": "/executive-office",
+        "MainNavsParentLabel": "Government",
+        "MainNavsParentPath": "/government"
+    },
+    {
+        "mainNavslabel": "Elected Officials",
+        "mainNavsPath": "/elected-officials",
+        "MainNavsParentLabel": "Government",
+        "MainNavsParentPath": "/government"
+    },
+    {
+        "mainNavslabel": "Boards and Commission",
+        "mainNavsPath": "/boards-and-commission",
+        "MainNavsParentLabel": "Government",
+        "MainNavsParentPath": "/government"
+    },
+    {
+        "mainNavslabel": "Documents",
+        "mainNavsPath": "/documents",
+        "MainNavsParentLabel": "Government",
+        "MainNavsParentPath": "/government"
+    },
+    {
+        "mainNavslabel": "City Clerk's Office",
+        "mainNavsPath": "/city-clerks-office",
+        "MainNavsParentLabel": "Government",
+        "MainNavsParentPath": "/government"
+    },
+    {
+        "mainNavslabel": "More Departments",
+        "mainNavsPath": "/more-departments",
+        "MainNavsParentLabel": "Government",
+        "MainNavsParentPath": "/government"
+    }
+]
+
 let device = ''
 
-const parentContainerDom = document.querySelector('.container')
+const parentContainerDom = document.querySelector('.hm-main-container')
 // const parentDom = document.querySelector('.main-menu-container')
 
-const navlinkSheets = [
+const navlinkSheets2 = [
     {
-        "navlinkParentsPath": null,
+        "navlinkParentsPath": "/government",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "Main",
         "navlinkLabel": "Executive Office",
-        "navlinkParent": null,
+        "navlinkParent": "Government",
         "navlinkPath": "/executive-office"
     },
     {
         "navlinkParentsPath": "/executive-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Mayor",
         "navlinkParent": "Executive Office",
@@ -573,6 +1065,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/executive-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "City Administration",
         "navlinkParent": "Executive Office",
@@ -580,20 +1073,23 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/executive-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Public Information Office",
         "navlinkParent": "Executive Office",
         "navlinkPath": "/public-information-officer"
     },
     {
-        "navlinkParentsPath": null,
+        "navlinkParentsPath": "/government",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "Main",
         "navlinkLabel": "Elected Officials",
-        "navlinkParent": null,
+        "navlinkParent": "Government",
         "navlinkPath": "/elected-officials"
     },
     {
         "navlinkParentsPath": "/elected-officials",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "City Council",
         "navlinkParent": "Elected Officials",
@@ -601,6 +1097,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-council",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "City Council Supporting Documents",
         "navlinkParent": "City Council",
@@ -608,6 +1105,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/elected-officials",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Federal Representative",
         "navlinkParent": "Elected Officials",
@@ -615,6 +1113,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/elected-officials",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "New York Representative",
         "navlinkParent": "Elected Officials",
@@ -622,20 +1121,23 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/elected-officials",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Local Elected Officials",
         "navlinkParent": "Elected Officials",
         "navlinkPath": "/local-elected-officials"
     },
     {
-        "navlinkParentsPath": null,
+        "navlinkParentsPath": "/government",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "Main",
         "navlinkLabel": "Board and Comissions",
-        "navlinkParent": null,
+        "navlinkParent": "Government",
         "navlinkPath": "/boards-and-commission"
     },
     {
         "navlinkParentsPath": "/boards-and-commission",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Planning Board",
         "navlinkParent": "Board and Comissions",
@@ -643,6 +1145,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/planning-board",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Planning Board Bylaws",
         "navlinkParent": "Planning Board",
@@ -650,6 +1153,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/planning-board",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Planning Board Documents",
         "navlinkParent": "Planning Board",
@@ -657,6 +1161,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/planning-board",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Zoning Board",
         "navlinkParent": "Planning Board",
@@ -664,20 +1169,23 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/boards-and-commission",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Historic Preservation Board",
         "navlinkParent": "Board and Comissions",
         "navlinkPath": "/historic-preservation-board"
     },
     {
-        "navlinkParentsPath": null,
+        "navlinkParentsPath": "/government",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "Main",
         "navlinkLabel": "Documents",
-        "navlinkParent": null,
+        "navlinkParent": "Government",
         "navlinkPath": "/documents"
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "City Departments",
         "navlinkParent": "Documents",
@@ -685,6 +1193,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Assesor",
         "navlinkParent": "Documents",
@@ -692,6 +1201,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/assesor",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Text Abatement Programs",
         "navlinkParent": "Assesor",
@@ -699,6 +1209,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/assesor",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Assessment Equity Information",
         "navlinkParent": "Assesor",
@@ -706,6 +1217,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/assesor",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Assessor - FAQs",
         "navlinkParent": "Assesor",
@@ -713,6 +1225,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/assesor",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Assessor Documents",
         "navlinkParent": "Assesor",
@@ -720,6 +1233,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Department of Code Enforcement",
         "navlinkParent": "Documents",
@@ -727,6 +1241,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Cities RISE",
         "navlinkParent": "Department of Code Enforcement",
@@ -734,6 +1249,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "CE-200 State Exemption",
         "navlinkParent": "Department of Code Enforcement",
@@ -741,6 +1257,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Permit Fee Schedule",
         "navlinkParent": "Department of Code Enforcement",
@@ -748,6 +1265,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Home Improvement Contractor License",
         "navlinkParent": "Department of Code Enforcement",
@@ -755,6 +1273,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Demolition Contractor License",
         "navlinkParent": "Department of Code Enforcement",
@@ -762,6 +1281,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Master Electrician",
         "navlinkParent": "Department of Code Enforcement",
@@ -769,6 +1289,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/department-of-code-enforcement",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Master Plumber License",
         "navlinkParent": "Department of Code Enforcement",
@@ -776,6 +1297,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Department of Public Works",
         "navlinkParent": "Documents",
@@ -783,6 +1305,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "City Counselor's Offices",
         "navlinkParent": "Documents",
@@ -790,6 +1313,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-counselors-offices",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Taxes",
         "navlinkParent": "City Counselor's Offices",
@@ -797,6 +1321,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-counselors-offices",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Parking Violations",
         "navlinkParent": "City Counselor's Offices",
@@ -804,6 +1329,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-counselors-offices",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Audit Division",
         "navlinkParent": "City Counselor's Offices",
@@ -811,6 +1337,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-counselors-offices",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Budget Divisiong",
         "navlinkParent": "City Counselor's Offices",
@@ -818,6 +1345,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-counselors-offices",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Finance Division",
         "navlinkParent": "City Counselor's Offices",
@@ -825,6 +1353,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-counselors-offices",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Payroll Division",
         "navlinkParent": "City Counselor's Offices",
@@ -832,6 +1361,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Engineering Department",
         "navlinkParent": "Documents",
@@ -839,6 +1369,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/engineering-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Right-of-way Permitting",
         "navlinkParent": "Engineering Department",
@@ -846,6 +1377,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/engineering-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Water and Sewer",
         "navlinkParent": "Engineering Department",
@@ -853,6 +1385,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/engineering-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Sidewalk Repairs",
         "navlinkParent": "Engineering Department",
@@ -860,6 +1393,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Fire Department",
         "navlinkParent": "Documents",
@@ -867,6 +1401,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Human Resources Department",
         "navlinkParent": "Documents",
@@ -874,6 +1409,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/human-resources-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Minucipal Civil Service Commission",
         "navlinkParent": "Human Resources Department",
@@ -881,6 +1417,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/human-resources-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Exams & Jobs Openings",
         "navlinkParent": "Human Resources Department",
@@ -888,6 +1425,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/human-resources-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "Human Resources FAQs",
         "navlinkParent": "Human Resources Department",
@@ -895,6 +1433,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/documents",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Police Department",
         "navlinkParent": "Documents",
@@ -902,6 +1441,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/police-department",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "3",
         "navlinkLabel": "NYS Police Reform and Reinvention Collaborative",
         "navlinkParent": "Police Department",
@@ -909,6 +1449,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/nys-police-reform-and-reinvention-collaborative",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "4",
         "navlinkLabel": "Test 1",
         "navlinkParent": "NYS Police Reform and Reinvention Collaborative",
@@ -916,6 +1457,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/nys-police-reform-and-reinvention-collaborative",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "4",
         "navlinkLabel": "Test 2",
         "navlinkParent": "NYS Police Reform and Reinvention Collaborative",
@@ -923,20 +1465,23 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/nys-police-reform-and-reinvention-collaborative",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "4",
         "navlinkLabel": "Test 3",
         "navlinkParent": "NYS Police Reform and Reinvention Collaborative",
         "navlinkPath": "/test3"
     },
     {
-        "navlinkParentsPath": null,
+        "navlinkParentsPath": "/government",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "Main",
         "navlinkLabel": "City Clerk's Office",
-        "navlinkParent": null,
+        "navlinkParent": "Government",
         "navlinkPath": "/city-clerks-office"
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Records",
         "navlinkParent": "City Clerk's Office",
@@ -944,6 +1489,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "City Clerk's Office Documents",
         "navlinkParent": "City Clerk's Office",
@@ -951,6 +1497,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "City Clerk's Office - Licenses/Permits",
         "navlinkParent": "City Clerk's Office",
@@ -958,6 +1505,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Parking Permits",
         "navlinkParent": "City Clerk's Office",
@@ -965,6 +1513,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "FOIL",
         "navlinkParent": "City Clerk's Office",
@@ -972,6 +1521,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Pet Information",
         "navlinkParent": "City Clerk's Office",
@@ -979,20 +1529,23 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/city-clerks-office",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Animal Complaint Form",
         "navlinkParent": "City Clerk's Office",
         "navlinkPath": "/animal-complaint-form"
     },
     {
-        "navlinkParentsPath": null,
+        "navlinkParentsPath": "/government",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "Main",
         "navlinkLabel": "More Departments",
-        "navlinkParent": null,
+        "navlinkParent": "Government",
         "navlinkPath": "/more-departments"
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Economic Development",
         "navlinkParent": "More Departments",
@@ -1000,6 +1553,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "NF Community Development",
         "navlinkParent": "More Departments",
@@ -1007,6 +1561,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Law Department",
         "navlinkParent": "More Departments",
@@ -1014,6 +1569,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Library",
         "navlinkParent": "More Departments",
@@ -1021,6 +1577,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Mangement Information Services (MIS)",
         "navlinkParent": "More Departments",
@@ -1028,6 +1585,7 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Planning and Enviromental",
         "navlinkParent": "More Departments",
@@ -1035,10 +1593,323 @@ const navlinkSheets = [
     },
     {
         "navlinkParentsPath": "/more-departments",
+        "navlinkCategoryMenuColor": null,
         "navlinkLevel": "2",
         "navlinkLabel": "Purchasing",
         "navlinkParent": "More Departments",
         "navlinkPath": "/purchasing"
+    },
+    {
+        "navlinkParentsPath": null,
+        "navlinkCategoryMenuColor": "#034",
+        "navlinkLevel": "Category",
+        "navlinkLabel": "Residents",
+        "navlinkParent": null,
+        "navlinkPath": "/residents"
+    },
+    {
+        "navlinkParentsPath": null,
+        "navlinkCategoryMenuColor": "#628400",
+        "navlinkLevel": "Category",
+        "navlinkLabel": "Visitors",
+        "navlinkParent": null,
+        "navlinkPath": "/visitors"
+    },
+    {
+        "navlinkParentsPath": null,
+        "navlinkCategoryMenuColor": "#840062",
+        "navlinkLevel": "Category",
+        "navlinkLabel": "Businesses",
+        "navlinkParent": null,
+        "navlinkPath": "/businesses"
+    },
+    {
+        "navlinkParentsPath": null,
+        "navlinkCategoryMenuColor": "#916e0f",
+        "navlinkLevel": "Category",
+        "navlinkLabel": "Government",
+        "navlinkParent": null,
+        "navlinkPath": "/government"
+    },
+    {
+        "navlinkParentsPath": "/residents",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Households",
+        "navlinkParent": "Residents",
+        "navlinkPath": "/households"
+    },
+    {
+        "navlinkParentsPath": "/households",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Garbage and Recycling Collection",
+        "navlinkParent": "Households",
+        "navlinkPath": "/garbage-and-recycling-collection"
+    },
+    {
+        "navlinkParentsPath": "/households",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "New Resident",
+        "navlinkParent": "Households",
+        "navlinkPath": "/new-resident"
+    },
+    {
+        "navlinkParentsPath": "/households",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Senior Services",
+        "navlinkParent": "Households",
+        "navlinkPath": "/senior-services"
+    },
+    {
+        "navlinkParentsPath": "/garbage-and-recycling-collection",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "Refuse Fee",
+        "navlinkParent": "Garbage and Recycling Collection",
+        "navlinkPath": "/refuse-fee"
+    },
+    {
+        "navlinkParentsPath": "/garbage-and-recycling-collection",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "FAQs",
+        "navlinkParent": "Garbage and Recycling Collection",
+        "navlinkPath": "/faqs"
+    },
+    {
+        "navlinkParentsPath": "/new-resident",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "Moving to Niagara Falls",
+        "navlinkParent": "New Resident",
+        "navlinkPath": "/moving-to-niagara-falls"
+    },
+    {
+        "navlinkParentsPath": "/senior-services",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "Caregivers Program",
+        "navlinkParent": "Senior Services",
+        "navlinkPath": "/caregivers-program"
+    },
+    {
+        "navlinkParentsPath": "/senior-services",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "Eat Well Stay Well Dining Program",
+        "navlinkParent": "Senior Services",
+        "navlinkPath": "/eat-well-stay-well-dining-program"
+    },
+    {
+        "navlinkParentsPath": "/senior-services",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "EISEP Extended in Home Services for the Elderly Program",
+        "navlinkParent": "Senior Services",
+        "navlinkPath": "/eisep-extended-in-home-services-for-the-elderly-program"
+    },
+    {
+        "navlinkParentsPath": "/senior-services",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "3",
+        "navlinkLabel": "HEAP Home Energy Assistance Program",
+        "navlinkParent": "Senior Services",
+        "navlinkPath": "/heap-home-energy-assistance-program"
+    },
+    {
+        "navlinkParentsPath": "/residents",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Health",
+        "navlinkParent": "Residents",
+        "navlinkPath": "/health"
+    },
+    {
+        "navlinkParentsPath": "/health",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Coronavirus Updates",
+        "navlinkParent": "Health",
+        "navlinkPath": "/coronavirus-updates"
+    },
+    {
+        "navlinkParentsPath": "/health",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Healthcare/ Well-being",
+        "navlinkParent": "Health",
+        "navlinkPath": "/healthcare/-well-being"
+    },
+    {
+        "navlinkParentsPath": "/health",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Emergency Dispatch",
+        "navlinkParent": "Health",
+        "navlinkPath": "/emergency-dispatch"
+    },
+    {
+        "navlinkParentsPath": "/residents",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Water Board",
+        "navlinkParent": "Residents",
+        "navlinkPath": "/water-board"
+    },
+    {
+        "navlinkParentsPath": "/water-board",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Sewer Maintenance",
+        "navlinkParent": "Water Board",
+        "navlinkPath": "/sewer-maintenance"
+    },
+    {
+        "navlinkParentsPath": "/water-board",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Water Information",
+        "navlinkParent": "Water Board",
+        "navlinkPath": "/water-information"
+    },
+    {
+        "navlinkParentsPath": "/water-board",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Pay your Water Bill",
+        "navlinkParent": "Water Board",
+        "navlinkPath": "/pay-your-water-bill"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "History of Niagara Falls",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/history-of-niagara-falls"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Things To Do",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/things-to-do"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Stay",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/stay"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Shop",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/shop"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Dine",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/dine"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Attractions",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/attractions"
+    },
+    {
+        "navlinkParentsPath": "/visitors",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Questions About Your Visit",
+        "navlinkParent": "Visitors",
+        "navlinkPath": "/questions-about-your-visit"
+    },
+    {
+        "navlinkParentsPath": "/businesses",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Starting Out",
+        "navlinkParent": "Businesses",
+        "navlinkPath": "/starting-out"
+    },
+    {
+        "navlinkParentsPath": "/businesses",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Doing Business",
+        "navlinkParent": "Businesses",
+        "navlinkPath": "/doing-business"
+    },
+    {
+        "navlinkParentsPath": "/doing-business",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Small Business Owners",
+        "navlinkParent": "Doing Business",
+        "navlinkPath": "/small-business-owners"
+    },
+    {
+        "navlinkParentsPath": "/doing-business",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Business Development Resources",
+        "navlinkParent": "Doing Business",
+        "navlinkPath": "/business-development-resources"
+    },
+    {
+        "navlinkParentsPath": "/doing-business",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "2",
+        "navlinkLabel": "Street Vendors",
+        "navlinkParent": "Doing Business",
+        "navlinkPath": "/street-vendors"
+    },
+    {
+        "navlinkParentsPath": "/businesses",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Development",
+        "navlinkParent": "Businesses",
+        "navlinkPath": "/development"
+    },
+    {
+        "navlinkParentsPath": "/businesses",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Inspection Documentation",
+        "navlinkParent": "Businesses",
+        "navlinkPath": "/inspection-documentation"
+    },
+    {
+        "navlinkParentsPath": "/businesses",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Purchasing Department",
+        "navlinkParent": "Businesses",
+        "navlinkPath": "/purchasing-department"
+    },
+    {
+        "navlinkParentsPath": "/businesses",
+        "navlinkCategoryMenuColor": null,
+        "navlinkLevel": "Main",
+        "navlinkLabel": "Bids",
+        "navlinkParent": "Businesses",
+        "navlinkPath": "/bids"
     }
 ]
 
@@ -1092,4 +1963,8 @@ const navlinkToAdd = []
 
 const navlinkToHide = []
 
-const menuType = "accordion"
+const menuType = "horizontal"
+
+const dataToggle = true
+
+const vhConnect2 = false

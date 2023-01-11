@@ -298,3 +298,90 @@ function desktopFunction123() {
     }
  })
  
+
+
+
+
+ // function LeftNavFunction(dom) {
+      //    const mainSubmenu = dom.querySelectorAll('.main-submenu-item');
+      //    const submenu = dom.querySelectorAll('.submenu-item');
+
+      //    mainSubmenu.forEach((v, i, a) => {
+      //       if (v.querySelector('.submenu-container') !== null) {
+      //          if (!v.querySelector('a').querySelector('.fa-angle-down')) {
+      //             v.querySelector('a').innerHTML += `<i class="fa-sharp fa-solid fa-angle-down"></i>`
+      //          }
+      //          v.addEventListener('mouseover', () => {
+      //             v.querySelector('.submenu-container').style.cssText = `right: 100%; top: 0; transition: 0.3s ease-in-out; visibility: visible; opacity: 1`;
+      //             v.querySelector('.fa-angle-down').style.cssText = `transform: rotate(90deg);`;
+      //          })
+      //          v.addEventListener('mouseout', () => {
+      //             v.querySelector('.submenu-container').style.cssText = ``;
+      //             v.querySelector('.fa-angle-down').style.cssText = ``;
+      //          })
+      //       }
+      //    })
+
+      //    submenu.forEach((v, i, a) => {
+      //       if (v.querySelector('.submenu-container') !== null) {
+      //          v.querySelector('a').innerHTML += `<i class="fa-sharp fa-solid fa-angle-down"></i>`
+      //          v.addEventListener('mouseover', () => {
+      //             v.querySelector('.submenu-container').style.cssText = `right: 100%; top: 0; transition: 0.3s ease-in-out; visibility: visible; opacity: 1`;
+      //             v.querySelector('.fa-angle-down').style.cssText = `transform: rotate(90deg);`;
+      //          })
+
+      //          v.addEventListener('mouseout', () => {
+      //             v.querySelector('.submenu-container').style.cssText = ``;
+      //             v.querySelector('.fa-angle-down').style.cssText = ``;
+      //          })
+      //       }
+      //    })
+      // }
+
+      // function RightNavFunction(dom) {
+      //    const mainSubmenu = dom.querySelectorAll('.main-submenu-item');
+      //    const submenu = dom.querySelectorAll('.submenu-item');
+
+      //    mainSubmenu.forEach((v, i, a) => {
+      //       if (v.querySelector('.submenu-container') !== null) {
+      //          v.querySelector('a').innerHTML += `<i class="fa-sharp fa-solid fa-angle-down"></i>`
+      //          v.addEventListener('mouseover', () => {
+      //             v.querySelector('.submenu-container').style.cssText = `left: 100%; top: 0; transition: 0.3s ease-in-out; visibility: visible; opacity: 1;`;
+      //             v.querySelector('.fa-angle-down').style.cssText = `transform: rotate(270deg);`;
+      //          })
+      //          v.addEventListener('mouseout', () => {
+      //             v.querySelector('.submenu-container').style.cssText = ``;
+      //             v.querySelector('.fa-angle-down').style.cssText = ``;
+      //          })
+      //       }
+      //    })
+
+      //    submenu.forEach((v, i, a) => {
+      //       if (v.querySelector('.submenu-container') !== null) {
+      //          v.querySelector('a').innerHTML += `<i class="fa-sharp fa-solid fa-angle-down"></i>`
+
+      //          v.addEventListener('mouseover', () => {
+      //             v.querySelector('.submenu-container').style.cssText = `left: 100%; top: 0; transition: 0.3s ease-in-out; visibility: visible; opacity: 1;`;
+      //             v.querySelector('.fa-angle-down').style.cssText = `transform: rotate(270deg);`;
+      //          })
+
+      //          v.addEventListener('mouseout', () => {
+      //             v.querySelector('.submenu-container').style.cssText = ``;
+      //             v.querySelector('.fa-angle-down').style.cssText = ``;
+      //          })
+      //       }
+      //    })
+      // }
+
+      function navFunction() {
+         const LeftSubmenu = parentDom.querySelectorAll('.with-submenu-left');
+         const RightSubmenu = parentDom.querySelectorAll('.with-submenu-right');
+
+         // LeftSubmenu.forEach((v, i, a) => {
+         //    // LeftNavFunction(v)
+         // })
+
+         // RightSubmenu.forEach((v, i, a) => {
+         //    // RightNavFunction(v)
+         // })
+      }
